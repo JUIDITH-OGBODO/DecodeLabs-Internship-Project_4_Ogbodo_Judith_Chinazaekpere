@@ -1,5 +1,6 @@
 Project 4 Report
-Sales Performance & Revenue Insights Dashboard
+Sales Performance and Revenue Insights Dashboard
+
 Executive Summary
 This project focused on transforming raw sales transaction data into meaningful business insights through effective data visualization in Power BI. The dashboard was designed to provide stakeholders with a clear view of sales performance, customer acquisition channels, order fulfilment status, and unusual sales patterns (outliers).
 Using visualization techniques, key metrics were analysed to identify trends, evaluate business performance, and support data-driven decision-making. Interactive slicers were incorporated to allow users to explore the data dynamically based on order status. The final dashboard successfully communicates complex sales information in a simple and actionable format.
