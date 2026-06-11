@@ -1,11 +1,17 @@
-Project 4 Report
-Sales Performance and Revenue Insights Dashboard
+Sales Performance & Revenue Insights Dashboard
+Project Overview
+This project focuses on transforming raw sales transaction data into meaningful business insights using Power BI. The dashboard was designed to help stakeholders monitor sales performance, evaluate customer acquisition channels, analyse order fulfilment status, and identify unusual sales patterns through interactive visualizations.
+The solution enables data-driven decision-making by presenting complex sales information in a simple, actionable, and visually appealing format.
+Business Objective
+To analyse sales performance and revenue trends while identifying opportunities to improve marketing effectiveness, order fulfilment processes, and overall business growth.
 
-Executive Summary
+Tools Used
+•	Power BI
+•	Data Cleaning & Transformation
+•	Data Visualization
+•	Business Intelligence Reporting
 
-This project focused on transforming raw sales transaction data into meaningful business insights through effective data visualization in Power BI. The dashboard was designed to provide stakeholders with a clear view of sales performance, customer acquisition channels, order fulfilment status, and unusual sales patterns (outliers).
-Using visualization techniques, key metrics were analysed to identify trends, evaluate business performance, and support data-driven decision-making. Interactive slicers were incorporated to allow users to explore the data dynamically based on order status. The final dashboard successfully communicates complex sales information in a simple and actionable format.
-Dataset Overview
+Dataset Summary
 Metric	Value
 Total Rows	1,200
 Total Columns	14
@@ -13,13 +19,12 @@ Missing Values	309
 Duplicate Records	0
 Unique Orders	1,200
 	
-Data Quality Findings:
-•	The dataset contained 309 missing values across several fields. 
-•	No duplicate transaction records were found. 
-•	Each Order ID was unique. 
-•	Data cleaning was performed to ensure consistency and reliability before analysis. 
-
-Key Statistics:
+Data Quality Checks
+•	Identified and handled 309 missing values.
+•	Confirmed zero duplicate records.
+•	Verified all Order IDs were unique.
+•	Performed data cleaning to ensure accuracy and consistency.
+Key Performance Indicators (KPIs)
 KPI	Value
 Total Revenue	$1.26 Million
 Total Orders	1,200
@@ -29,112 +34,88 @@ Median Sales	$823.62
 Outlier Count	8
 Outlier Revenue Contribution	2.14%
 
+Dashboard Features
+Revenue Performance Analysis
+•	Total Revenue Tracking
+•	Average and Median Sales Analysis
+•	Revenue Trend Monitoring
 Order Status Analysis
-
-Order Status	Count:
-Cancelled	250
-Returned	247
-Pending	237
-Shipped	235
-Delivered	231
-Observation
-The distribution of order statuses is relatively balanced.
-However:
-•	Cancelled orders represent the highest category. 
-•	Delivered orders represent the lowest category. 
-•	The business should investigate the causes of cancellations and returns to improve fulfilment efficiency. 
-
-Sales Trend Analysis:
-Yearly Trend
-Year	Revenue
-2023	$552,643
-2024	$480,236
-2025	$231,883
-Observation
-Sales revenue shows a declining trend across the years.
-Possible reasons may include:
-•	Reduced customer demand 
-•	Increased competition 
-•	Marketing performance decline 
-•	Incomplete data for 2025 
-This trend should be monitored closely.
-
-Monthly Trend
-Highest Sales Month:
-	June ($170,616)
-Strong Months:
-•	May 
-•	March 
-•	January 
-Lowest Sales Month:
-	September ($69,322)
-Observation
-Sales appear strongest during the first half of the year and begin to decline after June.
-This suggests possible seasonality in customer purchasing behaviour.
-
+•	Delivered Orders
+•	Shipped Orders
+•	Pending Orders
+•	Cancelled Orders
+•	Returned Orders
 Product Performance Analysis
-The dashboard shows:
-Top Performing Products
-1.	Chair 
-2.	Printer 
-3.	Laptop 
-Lower Performing Products
-•	Desk 
-•	Phone 
-Observation
-Furniture and office-related products generated stronger sales compared to mobile devices.
-
+•	Top Performing Products
+•	Low Performing Products
+•	Product Revenue Comparison
 Referral Source Analysis
-Referral Source	Revenue
-Instagram	$275,285
-Email	$261,809
-Google	$250,441
-Facebook	$250,411
-Referral	$226,816
-Observation
-Instagram generated the highest revenue and appears to be the most effective acquisition channel.
-Referral programs generated the lowest revenue and may require optimization.
+•	Instagram
+•	Email
+•	Google
+•	Facebook
+•	Referral Programs
+Outlier Detection
+•	Identification of unusual transactions using the IQR Method
+•	Revenue contribution analysis of high-value transactions
+Interactive Filtering
+The dashboard includes an Order Status Slicer that allows users to dynamically filter and explore performance metrics by:
+•	Delivered
+•	Shipped
+•	Pending
+•	Cancelled
+•	Returned
 
+Key Insights
+Sales Trends
+•	Total revenue reached $1.26 million.
+•	Sales revenue showed a declining trend from 2023 to 2025.
+•	June generated the highest monthly revenue.
+•	Sales were strongest during the first half of the year.
+Order Fulfillment
+•	Cancelled orders represented the highest order status category.
+•	Delivered orders represented the lowest category.
+•	High cancellation and return rates suggest opportunities for operational improvements.
+Product Performance
+Top-performing products:
+1.	Chair
+2.	Printer
+3.	Laptop
+Lower-performing products:
+•	Desk
+•	Phone
+Marketing Performance
+•	Instagram generated the highest revenue among all acquisition channels.
+•	Referral programs generated the lowest revenue.
 Outlier Analysis
-Using the Interquartile Range (IQR) method:
-•	Outlier Count = 8 
-•	Outlier Revenue Contribution = 2.14% 
-Observation
-Only a small number of transactions were identified as outliers.
-Although they represent just 8 transactions, they contributed over 2% of total revenue.
-These transactions should be monitored because they may represent:
-•	High-value customers 
-•	Bulk purchases 
-•	Potential data anomalies 
+•	Only 8 transactions were identified as outliers.
+•	These transactions contributed over 2% of total revenue.
+•	Potentially represent high-value customers or bulk purchases.
 
-Slicer Functionality
-The dashboard includes an interactive Order Status slicer.
-Users can filter the entire dashboard by:
-•	Delivered 
-•	Shipped 
-•	Pending 
-•	Cancelled 
-•	Returned 
-Benefit
-This allows stakeholders to:
-•	Analyse performance by order status 
-•	Compare revenue across fulfilment stages 
-•	Identify operational bottlenecks 
+Business Recommendations
+1. Increase Investment in Instagram Marketing
+Instagram delivered the highest revenue and should receive additional marketing focus.
+2. Improve Order Fulfilment Processes
+Investigate causes of cancellations and returns to improve customer satisfaction and operational efficiency.
+3. Study High-Value Customers
+Analyse outlier transactions to identify opportunities for retention, upselling, and loyalty programs.
+4. Optimize Referral Programs
+Review referral strategies to improve customer acquisition performance.
+5. Investigate Post-June Revenue Decline
+Conduct further analysis to determine whether the decline is seasonal or driven by external business factors.
 
-Business Insights
-Insight 1: Instagram is the strongest customer acquisition channel.
-Insight 2: June generated the highest sales revenue.
-Insight 3: Sales performance has declined year-over-year.
-Insight 4: Cancelled and Returned orders collectively account for a significant portion of transactions.
-Insight 5: A small number of outlier transactions contribute disproportionately to revenue.
-
-Recommendations
-1. Increase Investment in Instagram Marketing: Since Instagram generated the highest revenue, allocating more advertising resources to this channel may increase overall sales.
-2. Improve Order Fulfilment Processes: High cancellation and return rates suggest operational inefficiencies that should be investigated.
-3. Study High-Value Outlier Customers: Understanding purchasing behaviour of high-value customers may reveal opportunities for upselling and retention.
-4. Optimize Referral Programs: Referral-generated sales are the lowest among acquisition channels and should be reviewed.
-5. Investigate Post-June Sales Decline: Conduct further analysis to determine whether the decline is seasonal or driven by external business factors.
+Skills Demonstrated
+•	Data Cleaning
+•	Data Transformation
+•	Data Visualization
+•	Power BI Dashboard Development
+•	KPI Reporting
+•	Business Intelligence
+•	Trend Analysis
+•	Outlier Detection
+•	Revenue Analysis
+•	Business Insights & Recommendations
 
 Conclusion
-This project demonstrates how data visualization can transform raw sales data into meaningful business intelligence. Through interactive dashboards, trend analysis, referral source evaluation, and outlier detection, stakeholders can better understand sales performance and make informed decisions. The findings highlight opportunities to improve marketing effectiveness, reduce cancellations and returns, and maximize revenue growth through data-driven strategies.
+This project demonstrates how data visualization can transform raw sales data into actionable business intelligence. Through trend analysis, referral source evaluation, order status monitoring, and outlier detection, the dashboard provides stakeholders with valuable insights to support strategic decision-making and drive business growth.
 
